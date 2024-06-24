@@ -18,11 +18,8 @@
 ![R](https://img.shields.io/badge/R-grey?style=flat&logo=R&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-grey?style=flat&logo=python&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-grey?style=flat&logo=mysql&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/MySQL-grey?style=flat&logo=PostgreSQL&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-grey?style=flat&logo=PostgreSQL&logoColor=white)
 ![Markdown](https://img.shields.io/badge/Markdown-grey?style=flat&logo=markdown)
-![Microsoft Excel](https://img.shields.io/badge/Microsoft_Excel-gray?style=flat&logo=microsoft-excel&logoColor=white)
-![Microsoft Word](https://img.shields.io/badge/Microsoft_Word-gray?style=flat&logo=microsoft-word&logoColor=white)
-![Microsoft PowerPoint](https://img.shields.io/badge/Microsoft_PowerPoint-gray?style=flat&logo=microsoft-powerpoint&logoColor=white)
 
 ## **Soft Skills**
 
