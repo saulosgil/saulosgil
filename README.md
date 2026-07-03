@@ -15,7 +15,12 @@
  - 📊 Researcher in Health Sciences | Data Analysis & Biostatistics
  
  - ❤️ Passionate about tech and machine learning
- 
+
+---
+
+ - 🔭 Currently working on: sedentary behavior, mental health & cardiometabolic risk research
+
+ -  🌱 Learning: EEG signal processing, machine learning
 
 ## **Hard skills** 
 
