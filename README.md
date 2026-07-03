@@ -1,4 +1,4 @@
-h1 align="center">Hi there, I'm Saulo 🤓</h1>
+<h1 align="center">Hi there, I'm Saulo 🤓</h1>
 
 <p align="center">
   <a href="https://saulosgil.com" target="_blank"><img src="https://img.shields.io/badge/Blog-000000?style=flat&logo=About.me&logoColor=white" /></a>
