@@ -1,32 +1,67 @@
 name: GitHub Metrics
 
 on:
-  # Roda automaticamente a cada 12 horas
   schedule:
     - cron: "0 */12 * * *"
-  # Permite rodar manualmente pela aba "Actions" no GitHub
   workflow_dispatch:
-  # Roda também quando houver push na branch principal (opcional)
   push:
     branches:
       - main
+
+permissions:
+  contents: write
 
 jobs:
   build:
     runs-on: ubuntu-latest
     name: Generate GitHub stats images
     steps:
-      - name: Checkout repository
+      # 1. Faz checkout do SEU repositório (onde os SVGs serão salvos)
+      - name: Checkout this repository
         uses: actions/checkout@v4
 
-      - name: Generate stats images
-        uses: jstrieb/github-stats@master
+      # 2. Baixa o código-fonte do gerador (jstrieb/github-stats) para uma subpasta
+      - name: Checkout github-stats generator source code
+        uses: actions/checkout@v4
         with:
-          username: saulosgil
-          access_token: ${{ secrets.ACCESS_TOKEN }}
-          # Exclui forks e repositórios que você não quer contar nas estatísticas
-          exclude_repos: ""
-          # Exclui linguagens que não representam seu trabalho real (ex: Jupyter Notebook, HTML gerado)
-          exclude_langs: "HTML,CSS"
-          # Tema escuro para combinar com o restante do README
-          theme: github-dark
+          repository: jstrieb/github-stats
+          path: github-stats-src
+
+      # 3. Configura o Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      # 4. Instala as dependências do gerador
+      - name: Install dependencies
+        working-directory: github-stats-src
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # 5. Roda o script que gera os SVGs
+      - name: Generate images
+        working-directory: github-stats-src
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EXCLUDED: ""
+          EXCLUDED_LANGS: "HTML,CSS"
+          EXCLUDE_FORKED_REPOS: "true"
+        run: python3 generate_images.py
+
+      # 6. Copia os SVGs gerados para a pasta "generated/" na raiz do SEU repositório
+      - name: Copy generated images to repository root
+        run: |
+          mkdir -p generated
+          cp github-stats-src/generated/*.svg generated/
+
+      # 7. Faz commit dos arquivos gerados de volta no repositório
+      - name: Commit generated files
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add generated/
+          git commit -m "Update generated GitHub stats images" || echo "No changes to commit"
+          git push
