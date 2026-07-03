@@ -80,6 +80,6 @@
 
 ## 📫 Contact
 
-- 🌐 Website: [saulosgil.com](https://saulosgil.com)
-- 💼 LinkedIn: [linkedin.com/in/saulosgil](https://www.linkedin.com/)
-- 📧 Email: *(your email here)*
+- 🌐 [Website](https://saulogil.netlify.app/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/saulo-gil-b3a9061a0)
+- 📧 Email: *saulosgil@hotmail.com*
