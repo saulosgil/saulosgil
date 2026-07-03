@@ -10,7 +10,7 @@
 
  - 👨‍🔬 I’m a M.Sc. candidate in Information Engineering (UFABC);
  
- - 👨‍💻 I have graduated in Systems Analysis and Development and Physical Education.;
+ - 👨‍💻 I have degrees in Systems Analysis and Development, and in Physical Education;
  
  - 📊 Researcher in Health Sciences | Data Analysis & Biostatistics
  
