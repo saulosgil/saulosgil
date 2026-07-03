@@ -1,1 +1,32 @@
+name: GitHub Metrics
 
+on:
+  # Roda automaticamente a cada 12 horas
+  schedule:
+    - cron: "0 */12 * * *"
+  # Permite rodar manualmente pela aba "Actions" no GitHub
+  workflow_dispatch:
+  # Roda também quando houver push na branch principal (opcional)
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Generate GitHub stats images
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate stats images
+        uses: jstrieb/github-stats@master
+        with:
+          username: saulosgil
+          access_token: ${{ secrets.ACCESS_TOKEN }}
+          # Exclui forks e repositórios que você não quer contar nas estatísticas
+          exclude_repos: ""
+          # Exclui linguagens que não representam seu trabalho real (ex: Jupyter Notebook, HTML gerado)
+          exclude_langs: "HTML,CSS"
+          # Tema escuro para combinar com o restante do README
+          theme: github-dark
