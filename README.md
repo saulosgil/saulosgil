@@ -6,11 +6,15 @@
 
  - 🤓 My name is **Saulo**;
 
- - 👨‍🔬 I’m a PhD in Science from the University of São Paulo;
+ - 👨‍🔬 I’m a PhD in Science (USP);
+
+ - 👨‍🔬 I’m a M.Sc. candidate in Information Engineering (UFABC);
  
  - 👨‍💻 I have graduated in Systems Analysis and Development and Physical Education.;
  
- - 📖 I love data science and I'm focused on learning everything related to Machine learning.
+ - 📊 Researcher in Health Sciences | Data Analysis & Biostatistics
+ 
+ - ❤️ Passionate about tech and machine learning
  
 
 ## **Hard skills** 
