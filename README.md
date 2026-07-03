@@ -6,7 +6,7 @@
   <a href="http://lattes.cnpq.br/" target="_blank"><img src="https://img.shields.io/badge/Lattes-1E3A8A?style=flat&logo=readthedocs&logoColor=white" /></a>
   <a href="https://scholar.google.com/" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" /></a>
   <a href="https://orcid.org/" target="_blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" /></a>
-  <a href="https://www.linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/saulo-gil-b3a9061a0" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
   <a href="https://x.com/" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" /></a>
 </p>
 
