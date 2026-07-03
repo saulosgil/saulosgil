@@ -1,12 +1,12 @@
-<h1 align="center">Hi there, I'm Saulo 🤓</h1>
+h1 align="center">Hi there, I'm Saulo 🤓</h1>
 
 <p align="center">
-  <a href="[https://saulosgil.com](https://saulogil.netlify.app/)" target="_blank"><img src="https://img.shields.io/badge/Blog-000000?style=flat&logo=About.me&logoColor=white" /></a>
-  <a href="[http://lattes.cnpq.br/](http://lattes.cnpq.br/2692765757170763)" target="_blank"><img src="https://img.shields.io/badge/Lattes-1E3A8A?style=flat&logo=readthedocs&logoColor=white" /></a>
-  <a href="[https://scholar.google.com/](https://scholar.google.com/citations?user=usnPDyYAAAAJ&hl=pt-BR)" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" /></a>
-  <a href="[https://orcid.org/](https://orcid.org/0000-0001-9050-0073)" target="_blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" /></a>
-  <a href="[https://www.linkedin.com/](https://www.linkedin.com/in/saulo-gil-b3a9061a0)" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="[https://x.com/](https://x.com/saulo_gil)" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" /></a>
+  <a href="https://saulosgil.com" target="_blank"><img src="https://img.shields.io/badge/Blog-000000?style=flat&logo=About.me&logoColor=white" /></a>
+  <a href="http://lattes.cnpq.br/" target="_blank"><img src="https://img.shields.io/badge/Lattes-1E3A8A?style=flat&logo=readthedocs&logoColor=white" /></a>
+  <a href="https://scholar.google.com/" target="_blank"><img src="https://img.shields.io/badge/Google_Scholar-4285F4?style=flat&logo=googlescholar&logoColor=white" /></a>
+  <a href="https://orcid.org/" target="_blank"><img src="https://img.shields.io/badge/ORCID-A6CE39?style=flat&logo=orcid&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://x.com/" target="_blank"><img src="https://img.shields.io/badge/X-000000?style=flat&logo=x&logoColor=white" /></a>
 </p>
 
 ## 👨‍🔬 About me
@@ -66,17 +66,19 @@
 
 ## 📊 GitHub stats
 
+<!--
+  Estas imagens são geradas automaticamente pelo workflow em
+  .github/workflows/main.yml (via jstrieb/github-stats), rodando
+  dentro do próprio GitHub Actions — sem depender de nenhum servidor
+  externo (Vercel/Heroku), evitando os erros de rate limit.
+-->
 <p>
-  <img src="https://github-readme-stats.vercel.app/api?username=saulosgil&show_icons=true&theme=dark&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saulosgil&layout=compact&theme=dark&hide_border=true" />
-</p>
-
-<p>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=saulosgil&theme=dark&hide_border=true" />
+  <img src="https://raw.githubusercontent.com/saulosgil/saulosgil/main/generated/overview.svg" />
+  <img src="https://raw.githubusercontent.com/saulosgil/saulosgil/main/generated/languages.svg" />
 </p>
 
 ## 📫 Contact
 
-- 🌐 [Website](https://saulogil.netlify.app/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/saulo-gil-b3a9061a0)
-- 📧 Email: *saulosgil@hotmail.com*
+- 🌐 Website: [saulosgil.com](https://saulosgil.com)
+- 💼 LinkedIn: [linkedin.com/in/saulosgil](https://www.linkedin.com/)
+- 📧 Email: *(your email here)*
