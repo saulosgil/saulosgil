@@ -67,8 +67,6 @@
 
 ## 📊 GitHub stats
 
-## 📊 GitHub stats
-
 <!--
   Estas imagens são geradas automaticamente pelo repositório
   saulosgil/github-stats (criado a partir do template
