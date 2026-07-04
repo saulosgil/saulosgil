@@ -67,16 +67,41 @@
 
 ## 📊 GitHub stats
 
+## 📊 GitHub stats
+
 <!--
-  Estas imagens são geradas automaticamente pelo workflow em
-  .github/workflows/main.yml (via jstrieb/github-stats), rodando
-  dentro do próprio GitHub Actions — sem depender de nenhum servidor
-  externo (Vercel/Heroku), evitando os erros de rate limit.
+  Estas imagens são geradas automaticamente pelo repositório
+  saulosgil/github-stats (criado a partir do template
+  jstrieb/github-stats), via GitHub Actions — sem depender de
+  nenhum servidor externo (Vercel/Heroku), evitando os erros
+  de rate limit que a instância pública compartilhada tinha.
+
+  Depois de rodar o workflow em saulosgil/github-stats pela
+  primeira vez, confirme em qual branch os SVGs foram
+  commitados (normalmente "main" ou "generated") e descomente
+  a opção correspondente abaixo.
 -->
+
+<!-- Opção A: arquivos gerados na branch "main" -->
 <p>
   <img src="https://raw.githubusercontent.com/saulosgil/github-stats/main/generated/overview.svg" />
   <img src="https://raw.githubusercontent.com/saulosgil/github-stats/main/generated/languages.svg" />
 </p>
+
+<!-- Opção B: arquivos gerados na branch "generated" (descomente e apague a Opção A se for este o caso)
+<p>
+  <img src="https://raw.githubusercontent.com/saulosgil/github-stats/generated/generated/overview.svg" />
+  <img src="https://raw.githubusercontent.com/saulosgil/github-stats/generated/generated/languages.svg" />
+</p>
+-->
+
+<!--
+  Alternativa emergencial (instância pública, pode oscilar):
+<p>
+  <img src="https://github-readme-stats.vercel.app/api?username=saulosgil&show_icons=true&theme=dark&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saulosgil&layout=compact&theme=dark&hide_border=true" />
+</p>
+-->
 
 ## 📫 Contact
 
