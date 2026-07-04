@@ -79,28 +79,13 @@
   commitados (normalmente "main" ou "generated") e descomente
   a opção correspondente abaixo.
 -->
-
-<!-- Opção A: arquivos gerados na branch "main" -->
-<p>
-  <img src="https://raw.githubusercontent.com/saulosgil/github-stats/main/generated/overview.svg" />
-  <img src="https://raw.githubusercontent.com/saulosgil/github-stats/main/generated/languages.svg" />
-</p>
-
-<!-- Opção B: arquivos gerados na branch "generated" (descomente e apague a Opção A se for este o caso)
-<p>
-  <img src="https://raw.githubusercontent.com/saulosgil/github-stats/generated/generated/overview.svg" />
-  <img src="https://raw.githubusercontent.com/saulosgil/github-stats/generated/generated/languages.svg" />
-</p>
--->
-
-<!--
-  Alternativa emergencial (instância pública, pode oscilar):
-<p>
-  <img src="https://github-readme-stats.vercel.app/api?username=saulosgil&show_icons=true&theme=dark&hide_border=true" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saulosgil&layout=compact&theme=dark&hide_border=true" />
-</p>
--->
-
+ ![](https://github.com/saulosgil/github-stats/blob/generated/overview.svg#gh-dark-mode-only)
+ ![](https://github.com/saulosgil/github-stats/blob/generated/overview.svg#gh-light-mode-only)
+ ![](https://github.com/saulosgil/github-stats/blob/generated/languages.svg#gh-dark-mode-only)
+ ![](https://github.com/saulosgil/github-stats/blob/generated/languages.svg#gh-light-mode-only)
+ 
+ [Created by `jstrieb/github-stats`.](https://github.com/jstrieb/github-stats)
+ 
 ## 📫 Contact
 
 - 🌐 [Website](https://saulogil.netlify.app/)
