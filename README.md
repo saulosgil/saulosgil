@@ -74,8 +74,8 @@
   externo (Vercel/Heroku), evitando os erros de rate limit.
 -->
 <p>
-  <img src="https://raw.githubusercontent.com/saulosgil/saulosgil/main/generated/overview.svg" />
-  <img src="https://raw.githubusercontent.com/saulosgil/saulosgil/main/generated/languages.svg" />
+  <img src="https://raw.githubusercontent.com/saulosgil/github-stats/main/generated/overview.svg" />
+  <img src="https://raw.githubusercontent.com/saulosgil/github-stats/main/generated/languages.svg" />
 </p>
 
 ## 📫 Contact
