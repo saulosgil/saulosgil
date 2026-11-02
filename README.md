@@ -14,7 +14,7 @@
 
 - 👨‍🔬 PhD in Science from the University of São Paulo (USP)
 - 🎓 M.Sc. candidate in Information Engineering at UFABC
-- 💻 Systems Analyst, with a background in Physical Education
+- 💻 Systems Analyst | 🎓 Bachelor's Degree in Physical Education
 - 📖 Researcher in Health Sciences, working with statistical modeling, biostatistics, and epidemiological data (R and Python)
 - ❤️ Passionate about data science, and currently deepening my knowledge in Machine Learning and EEG signal processing
 
